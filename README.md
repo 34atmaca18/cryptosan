@@ -1,1 +1,1 @@
-<b>Live on netlify!!</b> >> <p> https://cryptosann.netlify.app </p>
+<h1>Live on Netlify!!</h1> <p> https://cryptosann.netlify.app </p>
