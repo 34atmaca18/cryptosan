@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Sono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    transition: all ease-in-out 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right canvas {
+    width: 500px;
+    height: 500px;
+}
+
+.boxShadow {
+    -webkit-box-shadow: 0px 0px 11px 4px rgb(255, 198, 29);
+    -moz-box-shadow: 0px 0px 11px 4px rgb(255, 198, 29);
+    box-shadow: 0px 0px 11px 4px rgb(255, 198, 29);
+}
+
+.boxShadow2 {
+    -webkit-box-shadow: 0px 0px 25px 24px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 25px 24px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px 24px rgba(0,0,0,1);
+}
+
+.textStroke {
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.textGradient {
+    background: #D5E126;
+    background: linear-gradient(to right, #D5E126 0%, #D2874F 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.myBorder {
+    border: 1px solid rgb(174, 174, 174);
+    animation: borderEffect 4s infinite ease-in-out;
+    border-radius: 15px;
+}
+
+.myBorder:hover {
+    border-color: gray;
+    animation: none;
+}
+
+.myTextShadow {
+    text-shadow: 2px 2px 3px #ffffff;
+}
+
+.textGradient2 {
+    background: #CFCFCF;
+    background: linear-gradient(to left, #CFCFCF 0%, #b4a809 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+@keyframes borderEffect {
+    0% {
+        border-color: rgb(174, 174, 174);
+    }
+    25% {
+        border-color: rgb(73, 73, 73);
+    }
+    50% {
+        border-color: rgb(174, 174, 174);
+    }
+    75% {
+        border-color: rgb(73, 73, 73);
+    }
+    100% {
+        border-color: rgb(174, 174, 174);
+    }
+}
+
